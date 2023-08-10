@@ -5,14 +5,16 @@
 }
 
 html {
-scroll-behavior: smooth;
-margin:0;
+  scroll-behavior: smooth;
+  margin: 0;
+  display: flex; /*Центрировал страницу */
 }
 
 body {
   min-width: 1100px;
-  margin: 0;
+  margin: 0 auto; /*Центрировал страницу при помощи auto */
   font-family: Raleway, sans-serif;
+  justify-content: center; /*Центрировал страницу */
 }
 
 h1,
