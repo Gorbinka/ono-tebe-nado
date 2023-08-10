@@ -5,7 +5,6 @@
 	display: grid;
 	grid-template-columns: auto 209px auto 355px auto;
 	grid-template-areas: 'menu . logo . address';
-
 }
 
 .header__menu {
